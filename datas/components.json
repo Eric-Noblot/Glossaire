@@ -1,0 +1,26 @@
+[
+    {
+        "title": "caroussel",
+        "picture" : "/datas/img/photo_4.jpg"
+    },
+    {
+        "title": "slider",
+        "picture" : "/datas/img/photo_5.jpg"
+    },
+    {
+        "title": "loader",
+        "picture" : "/datas/img/photo_6.jpg"
+    },
+    {
+        "title": "inscription",
+        "picture" : "/datas/img/photo_7.jpg"
+    },
+    {
+        "title": "formulaire",
+        "picture" : "/datas/img/photo_8.jpg"
+    },
+    {
+        "title": "jeux",
+        "picture" : "/datas/img/photo_9.jpg"
+    }
+]
