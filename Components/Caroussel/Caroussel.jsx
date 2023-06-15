@@ -1,21 +1,15 @@
-import "./caroussel.scss"
-import NavBar from "../NavBar/NavBar";
-import Filter from "../Filter/Filter"
-import { useParams } from "react-router-dom"
+import "../../style/mainComponent.scss"
+import Caroussel1 from "./Carrousel1/Caroussel1"
+
 
 const Caroussel = ({datas}) => {
-    const component = useParams().title 
 
-    const currentComponent = datas.find((data) => data.title === component)
-
+    const components = datas.components
+ 
     return (
-         <div className = "caroussel">
-            <NavBar />
-            <Filter />
-            <div className ="caroussel__container">
-                <img src={currentComponent.picture} alt ="te" className="caroussel__img"/>
-                <div className = "caroussel__title">{currentComponent.title}</div>
-            </div>
+        <div className = "componentList">
+            {components.map((component) => 
+            <Caroussel1 title={component.titleCaroussel} picture={component.pictureCaroussel}/>)}
         </div>
     );
 };

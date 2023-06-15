@@ -1,7 +1,13 @@
 [
     {
         "title": "caroussel",
-        "picture" : "/datas/img/photo_4.jpg"
+        "picture" : "/datas/img/photo_4.jpg",
+        "components": [
+            {"titleCaroussel": "/OpenClassrooms Projet 7", "pictureCaroussel":"/datas/img/photo_4.jpg" },
+            {"titleCaroussel": "/OpenClassrooms Projet 8", "pictureCaroussel":"/datas/img/photo_7.jpg" },
+            {"titleCaroussel": "/OpenClassrooms Projet 9", "pictureCaroussel":"/datas/img/photo_8.jpg" },
+            {"titleCaroussel": "/OpenClassrooms Projet 3", "pictureCaroussel":"/datas/img/photo_9.jpg" }
+    ]
     },
     {
         "title": "slider",

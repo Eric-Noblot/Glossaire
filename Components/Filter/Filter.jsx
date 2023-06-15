@@ -8,11 +8,12 @@ const Filter = () => {
     const getValue = (event) => {
         setInputValue(event.target.value)
     }
-    console.log(inputValue)
+    // console.log(inputValue)
 
     return (
         <div className = "filter">
             <input onChange={getValue} type = "text" placeholder ="Recherche ..." className = "filter__input"></input>
+            {/* <button>GO !</button> */}
         </div>
     );
 };

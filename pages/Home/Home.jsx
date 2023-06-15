@@ -7,6 +7,7 @@ import "./Home.scss"
 
 const Home = () => {
 
+
     const [currentValue, setCurrentValue] = useState(datas)
 
     return (

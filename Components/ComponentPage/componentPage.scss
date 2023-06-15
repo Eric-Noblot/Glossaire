@@ -1,0 +1,34 @@
+.componentPage {
+    max-width: 1440px;
+    // display: flex;
+    // flex-direction: column;
+    &__container {
+        height: 100px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+    }
+    &__img {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        object-fit: cover;
+        object-position: bottom;
+        position: absolute;
+        border-radius: 30px;
+    }
+    &__title {
+        position: absolute;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        text-shadow: black 1px 1px 1px;
+    }
+}
