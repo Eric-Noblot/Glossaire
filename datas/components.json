@@ -1,32 +1,50 @@
 [
     {
-        "title": "caroussel",
-        "picture" : "/datas/img/photo_4.jpg",
+        "title": "Caroussel",
+        "picture" : "https://onaircode.com/wp-content/uploads/2019/07/3D-Carousel-Slider.jpg",
         "components": [
-            {"titleCaroussel": "/OpenClassrooms Projet 7", "pictureCaroussel":"/datas/img/photo_4.jpg" },
-            {"titleCaroussel": "/OpenClassrooms Projet 8", "pictureCaroussel":"/datas/img/photo_7.jpg" },
-            {"titleCaroussel": "/OpenClassrooms Projet 9", "pictureCaroussel":"/datas/img/photo_8.jpg" },
-            {"titleCaroussel": "/OpenClassrooms Projet 3", "pictureCaroussel":"/datas/img/photo_9.jpg" }
+            {"id" : 1, "title": "OpenClassrooms Projet 7", "picture":"/datas/img/photo_4.jpg" },
+            {"id" : 2, "title": "OpenClassrooms Projet 8", "picture":"/datas/img/photo_9.jpg" }
     ]
     },
     {
-        "title": "slider",
-        "picture" : "/datas/img/photo_5.jpg"
+        "title": "Slider",
+        "picture" : "https://i.stack.imgur.com/uRVNa.gif",
+        "components": [
+            {"id" : 1, "title": "OpenClassrooms Projet 7", "picture":"/datas/img/photo_4.jpg" },
+            {"id" : 2, "title": "OpenClassrooms Projet 8", "picture":"/datas/img/photo_9.jpg" }
+    ]
     },
     {
-        "title": "loader",
-        "picture" : "/datas/img/photo_6.jpg"
+        "title": "Loader",
+        "picture" : "https://i.imgur.com/D9QyTzb.gif",
+        "components": [
+            {"id" : 1, "title": "OpenClassrooms Projet 7", "picture":"/datas/img/photo_4.jpg" },
+            {"id" : 2, "title": "OpenClassrooms Projet 8", "picture":"/datas/img/photo_9.jpg" }
+    ]
     },
     {
-        "title": "inscription",
-        "picture" : "/datas/img/photo_7.jpg"
+        "title": "Inscription",
+        "picture" : "/datas/img/photo_7.jpg",
+        "components": [
+            {"id" : 1, "title": "OpenClassrooms Projet 7", "picture":"/datas/img/photo_4.jpg" },
+            {"id" : 2, "title": "OpenClassrooms Projet 8", "picture":"/datas/img/photo_9.jpg" }
+    ]
     },
     {
-        "title": "formulaire",
-        "picture" : "/datas/img/photo_8.jpg"
+        "title": "Formulaire",
+        "picture" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIgktJHiEsQdncwAhHrS4BKpAxuHZMi3e9dA&usqp=CAU",
+        "components": [
+            {"id" : 1, "title": "OpenClassrooms Projet 7", "picture":"/datas/img/photo_4.jpg" },
+            {"id" : 2, "title": "OpenClassrooms Projet 8", "picture":"/datas/img/photo_9.jpg" }
+    ]
     },
     {
-        "title": "jeux",
-        "picture" : "/datas/img/photo_9.jpg"
+        "title": "Jeux",
+        "picture" : "/datas/img/photo_9.jpg",
+        "components": [
+            {"id" : 1, "title": "OpenClassrooms Projet 7", "picture":"/datas/img/photo_4.jpg" },
+            {"id" : 2, "title": "OpenClassrooms Projet 8", "picture":"/datas/img/photo_9.jpg" }
+    ]
     }
 ]

@@ -11,7 +11,7 @@ const ListComponents = ({datas}) => {
     return (
         <div className = "listComponents">
             {currentData.map((data, index)=> 
-                <Link to={`/component/${data.title}`} element={<ComponentPage test={data.title} />}><div key = {index} className= "listComponents__card">
+                <Link to={`/component/${data.title}`} ><div key = {index} className= "listComponents__card">
                     <img src= {data.picture} alt={data.title} className="listComponents__img"></img>
                     <div className = "listComponents__filter"></div>
                     <div className="listComponents__title">{data.title}</div>
