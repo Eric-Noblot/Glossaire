@@ -45,7 +45,7 @@ function App() {
           <Route path="/component/formulaire/2" element={<Formulaire2 />} />
 
 
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About/>}  />
         </Routes>
       </Router>
     </GetComponent.Provider>

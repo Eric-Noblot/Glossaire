@@ -7,8 +7,14 @@
     margin-bottom: 20px;
     padding: 0 200px;
     &__logo{
-        color: red;
+        margin-top: 115px;
         margin-right: auto;
+        width: 260px;
+        height: 190px;
+        background: url("https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif");
+        border-radius: 48%;
+        background-size : cover;
+        background-color: green;
     }
     &__links{
         display: flex;
@@ -25,8 +31,10 @@
 }
 
 .active{
-    background-color: rgb(188, 173, 88);
+    background-color: rgb(40, 107, 121);
+    box-shadow: 2px 2px 15px gold;
 }
 .non_active {
-    background-color: rgb(99, 70, 11);
+    background-color: rgba(13, 52, 58, 0.784);
+    box-shadow: none;
 }
