@@ -112,7 +112,7 @@ const onChangeUseRef = (event) => {
                 style={{marginBottom: "10px"}}>
                 </input>
                 <button style={{padding: "20px", marginLeft:"20px", backgroundColor: "gold"}}>Ajouter</button>
-                <div>(méthode avec use Ref)</div>
+                <div>(méthode sans use Ref)</div>
             </form>
 
 

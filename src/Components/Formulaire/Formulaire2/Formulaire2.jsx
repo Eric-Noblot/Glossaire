@@ -59,21 +59,21 @@ const Formulaire2 = () => {
                 <h1>login Form</h1>
                 <div className="form">
                     <div className="field">
-                        <label htmlFor="username">Username</label>
-                        <input value={formValues.username} onChange={handleChange} id = "username" type="text" name="username" placeholder="Username..." /> 
+                        <label className ="labelField" htmlFor="username">Username</label>
+                        <input value={formValues.username} onChange={handleChange} id = "username" className="inputField" type="text" name="username" placeholder="Username..." /> 
                     </div>
                     <p>{formErrors.username}</p>
                     <div className="field">
-                        <label htmlFor="email">Email</label>
-                        <input value={formValues.email} onChange={handleChange} id = "email" type="email" name="email" placeholder="Email..." /> 
+                        <label className ="labelField" htmlFor="email">Email</label>
+                        <input value={formValues.email} onChange={handleChange} id = "email" className="inputField" type="email" name="email" placeholder="Email..." /> 
                     </div>
                     <p>{formErrors.email}</p>
                     <div className="field">
-                        <label htmlFor="password">Password</label>
-                        <input value={formValues.password} onChange={handleChange} id = "password" type="password" name="password" placeholder="Password..." /> 
+                        <label className ="labelField" htmlFor="password">Password</label>
+                        <input value={formValues.password} onChange={handleChange} id = "password" className="inputField" type="password" name="password" placeholder="Password..." /> 
                     </div>
                     <p>{formErrors.password}</p>
-                    <button>Submit</button>
+                    <button className ="buttonField">Submit</button>
                 </div>
             </form>
         </div>

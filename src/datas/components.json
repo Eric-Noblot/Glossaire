@@ -36,15 +36,15 @@
         "picture" : "https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg",
         "components": [
             {"id" : 1, "title": "Ajout/Suppression produit (useRef)", "picture":"/datas/img/formulaire/formulaire1/formulaire1.png" },
-            {"id" : 2, "title": "Youtube / Dipesh Malvia - Form Validation using React", "picture":"/datas/img/formulaire/formulaire1/formulaire2.png" }
+            {"id" : 2, "title": "Youtube / Dipesh Malvia - Form Validation using React", "picture":"/datas/img/formulaire/formulaire2/formulaire2.png" },
+            {"id" : 3, "title": "To do list - Youtube Web Dev Simplified", "picture":"/datas/img/formulaire/formulaire3/formulaire3.png" }
     ]
     },
     {
         "title": "Jeux",
-        "picture" : "/datas/img/photo_9.jpg",
+        "picture" : "https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg",
         "components": [
-            {"id" : 1, "title": "OpenClassrooms Projet 7", "picture":"/datas/img/photo_4.jpg" },
-            {"id" : 2, "title": "OpenClassrooms Projet 8", "picture":"/datas/img/photo_9.jpg" }
+            {"id" : 1, "title": "Calculatrice - Web dev Simplified", "picture":"/datas/img/jeux/jeux1/jeux1.png" }
     ]
     }
 ]
